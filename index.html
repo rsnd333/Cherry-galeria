@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Galeria</title>
+    <link rel="stylesheet" href="./links/bootstrap.min.css">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+</head>
+<body class="all">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Cherry Galeria</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#Home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Sobre" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Destaques" class="nav-link">Destaques</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Contato" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="botao" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/foto1.png" alt="imagens de arte">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/foto2.png" alt="imagens de arte">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/foto3.png" alt="imagens de arte">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#botao" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#botao" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#botao" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <section id="Destaques" class="section-um">
+        <div class="container destaque">
+            <h1>Destaques da semana</h1>
+            <div class="row">
+                <div class="col-3">
+                    <img src="./imagens/Jonas-Gerard.jpeg" alt="Obra de arte">
+                    <div class="nome-artista">
+                        <p>
+                            Jonas Gerard
+                            <br>
+                            Trust in Uncertainty
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./imagens/Pablo.jpeg" alt="Obra de arte">
+                    <div class="nome-artista">
+                        <p>
+                            Pablo Picasso 
+                            <br>
+                            Mulher no espelho
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./imagens/Salvador-Dali.jpeg" alt="Obra de arte">
+                    <div class="nome-artista">
+                        <p>
+                            Salvador Dali
+                            <br>
+                            Galatea das Esferas
+                        </p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <img src="./imagens/Anita-Malfatti.jpeg" alt="Obra de arte">
+                    <div class="nome-artista">
+                        <p>
+                            Anita Malfatti
+                            <br>
+                            O Farol
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Sobre" class="section-dois">
+        <div class=" container sobre-conteudo">
+            <img src="./imagens/galeria-ficticia.png" alt="foto da galeria ">
+            <div class="cherry">
+                <h2>Sobre a Cherry</h2>
+                <p>O objetivo da Cherry é divulgar e preservar a arte, além de proporcionar um espaço para que os espectadores possam apreciar as obras, aqui além de pinturas nós exibimos também esculturas, fotografias, instalações, experimentações com som e imagem.</p>
+                <br>
+                <p>Nosso intuto é de trabalhar com o histórico do artista, ajudar a consolidar sua carreira e estabelecer uma jornada de peso no mundo da arte. Não apenas receber o artista e comercializar a obra do mesmo.  </p>
+                <br>
+                <p>Nós gostamos sempre lembrar e reforçar a importância da arte na nossa vida, e como ela pode ser extremamente benéfica para a nossa saúde. Dentre esses benefícios estão: concentração, relaxamento, imaginação, e pode liberar tensões e estresse. </p>
+                <br>
+                <p>Todas as exposições são feitas de maneira minuciosa, e com o propósito de trazer sempre a melhor experiência no mundo da arte para todos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-tres">
+        <div class="container">
+            <div class="row cards">
+                <div class="col-6">
+                    <article class="card">
+                        <div class="card-header">
+                            Aulas de Cerâmica
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">Trabalhe a imaginação</h4>
+                            <p class="card-text">
+                                A Cherry oferece espaço e estrutura para aulas de cerâmica.
+                                <br>
+                                Nós proporcionamos aulas para todos os níveis, desde iniciante ao avançado.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p>Segunda, Quarta e Sexta das 18:00 às 19:00</p>
+                        </footer>
+                    </article>
+                </div>
+                <div class="col-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Aulas de Pintura
+                        </div>
+                            <div class="card-body">
+                            <h4 class="card-title">Trabalhe a imaginação</h4>
+                            <p class="card-text">
+                                A Cherry oferece também aulas de pintura em tela, para todos os níveis desde iniciante ao avançado.
+                                <br>
+                                As pinturas são feitas com tinta a óleo.
+                            </p>
+                        </div>
+                        <footer class="card-footer">
+                            <p>Terça, Quinta e Sábado das 18:00 às 19:00 </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="Contato">
+        <div class="informacoes">
+            <div class="inner-footer">
+                <h2>Contatos</h2>
+                <p>
+                    <img src="./icones/telefone.png" alt="icone de celular">
+                    4444-3333
+                </p>
+                <p>
+                    <img src="./icones/envelope.png" alt="icone de email">
+                informacoes@cherry.com
+                </p>
+            </div>
+            <div class="inner-footer">
+                <h2>Localização</h2>
+                <p>
+                    <img src="./icones/pin.png" alt="icone de localização">
+                    Rua Madson, Vila Bear -Nº444.
+                    São Paulo, Brasil
+                </p>
+            </div>
+            <div class="inner-footer">
+                <h2>Funcionamento</h2>
+                <p>Segunda-feira a Sábado: 09:00 às 19:00. </p>
+                <p>Domingo: Fechado.</p>
+            </div>
+            <p class="inner-footer"> Copyright &copy;  <span id="ano-atual"></span> Cherry Galeria - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="./links/bootstrap.bundle.min.js"></script>
+    <script src="./galeria.js"></script>
+</body>
+</html>

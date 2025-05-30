@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root{
+    --cor-um:#030303;
+    --cor-dois:#F1EFEC;
+    --cor-tres:#F5EEDC;
+    --cor-quatro:#481E14;
+}
+
+.all{
+    background-color:var(--cor-um);
+}
+
+#cabecalho{
+    background-color: var(--cor-dois);
+}
+
+.navbar h1{
+    color: var(--cor-um);
+    font-size: 3rem;
+}
+
+.nav-link{
+    color: var(--cor-um);
+}
+
+.nav-link:hover{
+    color: var(--cor-um);
+}
+
+.carousel-inner{
+    border: 0.1rem solid var(--cor-dois);
+    border-radius: 1.63rem;
+    margin-top: 12rem;
+}
+
+.destaque h1{
+    color: var(--cor-dois);
+    margin-top: 12rem;
+    font-size: 2.5rem;
+    border-bottom: 0.2rem solid var(--cor-dois);
+    }
+
+.row{
+    margin-top: 5rem;
+    padding: 4rem;
+    border: 0.1rem solid var(--cor-dois);
+    border-radius: 1.63rem;
+}
+
+.destaque img{
+    max-width: 85%;
+    height:15rem ;
+    display: block;
+}
+
+.nome-artista{
+    margin-top: 1rem;
+    color: var(--cor-dois);
+    font-size: 1.25rem ;
+}
+
+.sobre-conteudo{
+    border: 0.1rem solid var(--cor-dois);
+    border-radius: 1.63rem;
+    padding: 4rem ;
+    gap: 5rem;
+    margin-top: 15rem;
+    display: flex;
+}
+
+.cherry h2{
+    font-size: 2.3rem ;
+    color: var(--cor-dois);
+}
+
+.cherry p{
+    font-size: 1rem;
+    color: var(--cor-dois);
+}
+
+.cards{
+    margin: 10rem 10rem;
+    max-width: 85%;
+    display: flex;
+    align-items: center;
+}
+
+.card-header{
+    font-size: 2rem;
+    background-color: var(--cor-quatro);
+    color: var(--cor-dois);
+}
+
+.card-body{
+    background-color: var(--cor-dois);
+}
+
+.card-body h4{
+    font-size: 1.8rem;
+}
+
+.card-body > p{
+    font-size: 1.4rem;
+    color: var(--cor-um);
+}
+
+.card-footer{
+    font-size: 1.2rem;
+    color: var(--cor-dois);
+    background-color: var(--cor-quatro);
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-dois);
+    padding: 3.13rem 6.25rem;
+    }
+
+.informacoes h2{
+    font-size: 1.8;
+}
+
+.informacoes p{
+    font-size: 1.2rem;
+    margin-left: 0.33rem;
+}
+
+.informacoes img{
+    display: inline-block;
+    width: 1.12rem;
+    height: 1.12rem;
+    object-fit: contain;
+    text-align: center;
+}
+
+.inner-footer{
+    border-bottom: 0.1rem solid var(--cor-um);
+}
+
+@media screen and (max-width:767px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Federo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    :root{
+        --cor-um:#030303;
+        --cor-dois:#F1EFEC;
+        --cor-tres:#F5EEDC;
+        --cor-quatro:#481E14;
+    }
+    
+    .all{
+        background-color:var(--cor-um);
+    }
+    
+    #cabecalho{
+        background-color: var(--cor-dois);
+    }
+    
+    .navbar h1{
+        color: var(--cor-um);
+        font-size: 2rem;
+    }
+
+    .nav-link{
+        color: var(--cor-um);
+        font-size: 0.9rem;
+    }
+
+    .carousel-inner{
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+        margin-top: 6rem;
+        
+    }
+
+    .row{
+        display: block;
+        margin-top: 5rem;
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+    }
+
+    .col-3{
+        width: 100%;
+        margin-bottom: 1.7rem;
+    }
+
+    .destaque h1{
+        color: var(--cor-dois);
+        margin-top: 6rem;
+        font-size: 1.8rem;
+        border-bottom: 0.1rem solid var(--cor-dois);
+    }
+    
+    .nome-artista{
+        margin-top: 0.2rem;
+        color: var(--cor-dois);
+        font-size: 1rem ;
+    }
+
+    .sobre-conteudo{
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+        padding: 4rem ;
+        gap: 5rem;
+        display: block;
+        margin-top: 10rem;
+    }
+
+    .sobre-conteudo img{
+        max-width: 120%;
+    }
+
+    .cherry h2{
+        font-size: 1.8rem ;
+        color: var(--cor-dois);
+    }
+
+    .cherry p{
+        font-size: 1rem;
+        color: var(--cor-dois);
+    }
+
+    .cards{
+        margin: 10rem 0 5rem;
+        max-width: 100%;
+    }
+
+    .col-6{
+        width: 100%;
+    }
+
+    .card{
+        margin-bottom: 1.4rem;
+    }
+
+    .card-header{
+        font-size: 1.2rem;
+        background-color: var(--cor-quatro);
+        color: var(--cor-dois);
+    }
+    
+    .card-body{
+        background-color: var(--cor-dois);
+    }
+    
+    .card-body h4{
+        font-size: 1.3rem;
+    }
+    
+    .card-body > p{
+        font-size: 0.9rem;
+        color: var(--cor-um);
+    }
+    
+    .card-footer{
+        font-size: 1rem;
+        color: var(--cor-dois);
+        background-color: var(--cor-quatro);
+    }
+
+
+    .informacoes{
+        display: block;
+        align-items: center;
+        background-color: var(--cor-dois);
+        }
+
+    .informacoes h2{
+        font-size:1.5rem ;
+    }
+    
+    .informacoes p{
+        font-size: 0.9rem;
+        margin-left: 0.33rem;
+    }
+    
+    .informacoes img{
+        display: inline-block;
+        width: 1.12rem;
+        height: 1.12rem;
+        object-fit: contain;
+        text-align: center;
+    }
+
+    .inner-footer{
+        border: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Federo", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    :root{
+        --cor-um:#030303;
+        --cor-dois:#F1EFEC;
+        --cor-tres:#F5EEDC;
+        --cor-quatro:#481E14;
+    }
+    
+    .all{
+        background-color:var(--cor-um);
+    }
+    
+    #cabecalho{
+        background-color: var(--cor-dois);
+    }
+    
+    .navbar h1{
+        color: var(--cor-um);
+        font-size: 3rem;
+    }
+    
+    .nav-link{
+        color: var(--cor-um);
+        font-size: 1.2rem;
+    }
+    
+    .nav-link:hover{
+        color: var(--cor-um);
+    }
+
+    .carousel-inner{
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+        margin-top: 12rem;
+    }
+    
+    .destaque h1{
+        color: var(--cor-dois);
+        margin-top: 12rem;
+        font-size: 2.5rem;
+        border-bottom: 0.2rem solid var(--cor-dois);
+        }
+    
+    .row{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5rem;
+        padding: 4rem;
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+    }
+
+    .col-3{
+        width: 100%;
+    }
+    
+    .destaque img{
+        height:15rem ;
+        display: block;
+        margin-bottom: 1.3rem;
+    }
+    
+    .nome-artista{
+        margin-top: 1rem;
+        color: var(--cor-dois);
+        font-size: 1.4rem ;
+    }
+
+    .sobre-conteudo{
+        border: 0.1rem solid var(--cor-dois);
+        border-radius: 1.63rem;
+        padding: 4rem ;
+        gap: 5rem;
+        margin-top: 15rem;
+        display: block;
+    }
+    
+    .cherry h2{
+        font-size: 2rem ;
+        color: var(--cor-dois);
+        margin-bottom: 1rem;
+    }
+    
+    .cherry p{
+        font-size: 1.3rem;
+        color: var(--cor-dois);
+    }
+
+    .cards{
+        margin: 10rem 0 5rem;
+        max-width: 100%;
+    }
+
+    .col-6{
+        width: 100%;
+    }
+
+    .card-header{
+        font-size: 2.2rem;
+        background-color: var(--cor-quatro);
+        color: var(--cor-dois);
+    }
+    
+    .card-body{
+        background-color: var(--cor-dois);
+    }
+    
+    .card-body h4{
+        font-size: 1.7rem;
+    }
+    
+    .card-body > p{
+        font-size: 1.2rem;
+        color: var(--cor-um);
+    }
+    
+    .card-footer{
+        font-size: 1.4rem;
+        color: var(--cor-dois);
+        background-color: var(--cor-quatro);
+    }
+
+    .informacoes{
+        flex-wrap: wrap;
+        background-color: var(--cor-dois);
+        padding: 3.13rem 6.25rem;
+        }
+    
+    .informacoes h2{
+        font-size: 1.8;
+    }
+    
+    .informacoes p{
+        font-size: 1.2rem;
+        margin-left: 0.33rem;
+    }
+    
+    .informacoes img{
+        display: inline-block;
+        width: 1.12rem;
+        height: 1.12rem;
+        object-fit: contain;
+        text-align: center;
+    }
+
+    .inner-footer{
+        border: none;
+        margin-bottom: 1.2rem;
+    }
+    
+}
+
+
+
+
+
